@@ -21,3 +21,8 @@ print(y)
 x=9
 print(x)
 print(y)
+
+# one can take help of dir(variable_name) to check how many methods are posible on this variable
+# remembet two things :-
+# for mathod calling ----- > variable_name[method_name]
+# for function calling ----- > function_name(arguments)
