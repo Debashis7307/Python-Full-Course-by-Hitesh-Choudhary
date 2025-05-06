@@ -44,14 +44,6 @@ print(0b1010 << 2) #40 # << -> left shift operator
 print(0b1010 >> 2) #2 # >> -> right shift operator
 # 1010 >> 2 = 10 = 2
 
-# Random Library
-import random as rd
-print(rd.Random()) #random object btwn 0 and 1
-print(rd.randint(1, 10)) #random int btwn 1 and 10 , 10 is inclusive
-print(rd.random()) #random float btwn 0 and 1
-print(rd.uniform(1, 10)) #random float btwn 1 and 10 , 10 is inclusive
-print(rd.choice([1, 2, 3, 4, 5])) #random choice from the list
-print(rd.sample([1, 2, 3, 4, 5], 3)) #random sample from the list of size 3
-print(rd.shuffle([1, 2, 3, 4, 5])) #random shuffle the list
-print(rd.seed(10)) #random seed
+
+
 
